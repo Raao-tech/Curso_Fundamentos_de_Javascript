@@ -1,5 +1,8 @@
-//todo dato numerico que comience con  0x  será considerado hexadeciaml y se tratara como tal
-
+'use strict'; // Tal linea de codigo se usa para pdoer activar las nuevas caracteirsticas de ECMAscript
+/*
+    HEXADECIMAL
+      Todo dato numerico que comience con  0x  será considerado hexadeciaml y se tratara como tal
+*/
 console.log(0x0043);// resultado será 67
 
 
@@ -34,9 +37,10 @@ console.log(valorDigitoHex); //se imprime el valor hexadecimal, que con el ejemp
 
 
 
-/*los Datos Primitivos son INMUTABLES 
+/*  
+    LOS DATOS PRIMITIVOS SON INMUTABLES
 
-  Dicha característia, se ve reflejada en su incapacidad de ser modificada mediante funciones o reestructuracion
+      Dicha característia, se ve reflejada en su incapacidad de ser modificada mediante funciones o reestructuracion
 */
 
 let numero = 0; // se declara una variable que contiene un dato primitvo de tipo numerico
@@ -53,3 +57,14 @@ function suma(num) {
 
     return num;
 }
+
+
+/* 
+    ARRAYS DESIGUALES
+      Resulta que los arrays vaciosno son iguales, pero aquellos que son negados con el operador not no lo son 
+*/
+
+    const array_1 = {};
+    
+console.log( array_1 == array_1 , array_1 == !array_1, array_1 === array_1, array_1 === !array_1);
+

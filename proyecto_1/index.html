@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIVINA EL NÚMERO</title>
+</head>
+<body>
+
+    <div id="container">
+        <div class="container_title">
+                <h1> ADIVINA EL NÚMERO</h1>
+        </div> 
+        <div class="sub_container">
+
+            <p>Adivina un Número entre el 1 y el 100</p>
+
+
+            <label for="guess">
+
+                <input type="number" id="guess" min="50" max="100">
+                <input type="button" id="guess"  value="Guess!" onclick="checkGuess()">
+
+            </label>
+
+
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+    
+</body>
+<link rel="stylesheet" href="/proyecto_1/style.css">
+<script src="app.js"></script>
+</html>

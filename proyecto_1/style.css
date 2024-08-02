@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family:Arial;
+
+    color: blueviolet;
+    font-weight: 850;
+
+}
+body {
+
+    display: grid;
+
+    height: 100vh;
+    background-color: blueviolet;
+
+    align-content: center;
+    justify-content: center;
+}
+label > input[type="button"], button {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid blueviolet ;
+    border-radius: 15px;
+
+    background-color: blueviolet;
+
+    
+
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 850;
+
+}
+
+label > input[type="button"]:hover , button:hover{
+   
+    border: 5px solid rgb(96, 0, 122);
+    border-radius: 25px;
+
+    background-color: rgb(96, 0, 122);
+
+    
+
+    color: rgb(255, 255, 255);
+   
+    font-weight: 1000;
+
+    transition: background ease-in .2s;
+    transition: border-radius ease-in .2s;
+
+
+}
+label > input[type="number"]{
+    width: 100px;
+    padding: 10px;
+
+    border: solid 3px ;
+
+    border-radius: 15px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: blueviolet;
+
+    text-align: center;
+    font-size: large;
+    font-weight: 950;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+}
+#container{
+    display: grid;
+
+    padding: 50px;
+    border-radius: 50px;
+
+    box-shadow: -20px 8px 0px 9px rgba(68, 68, 68, 0.486);
+
+
+    background-color: aliceblue;
+    justify-content: center;
+
+}
+.sub_container{
+    display: grid;
+
+    justify-content: center;
+    justify-items: center;
+}

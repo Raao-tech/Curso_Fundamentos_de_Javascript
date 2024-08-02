@@ -65,7 +65,9 @@
             const casoB5 = 25 + NaN; 
             const casoB6 = Infinity / Infinity;
             const casoB7 =  NaN + NaN;
+            const casoB8 = parseInt("hola"); //Se le esta otrogando la funcion parseint, (encargada de traspasar STRINGS a INT ), un parametro donde no hay valores matemtaios en el texto, sino simplente texto.
 
+            
 
 
         //funciones
@@ -74,6 +76,7 @@
             const funcionB3 = NaN == NaN;//false porque NaN no es igual a nigún valor incluyendose así mismo
             const funcionB4 = NaN == Number.NaN; //false porque NaN no es igual a nigún valor incluyendose así mismo
             const funcionB5 = NaN === Number.NaN; //false porque NaN no es igual a nigún valor incluyendose así mismo
+      
 
 /*
         Max y Min Value
@@ -94,7 +97,7 @@
 
 //  NaN
         console.log(noEsUnNumero,noEsUnNumero2); 
-        console.log( casoB1, casoB2, casoB3, casoB4, casoB5, casoB6, casoB7);
+        console.log( casoB1, casoB2, casoB3, casoB4, casoB5, casoB6, casoB7,casoB8);
         console.log(funcionB1, funcionB2, funcionB3, funcionB4, funcionB5);
 
 //Max y Min Value
